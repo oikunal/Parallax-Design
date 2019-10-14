@@ -1,0 +1,364 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            overflow-x: hidden ;
+        }
+
+        /* Navigation */
+
+        .navbar .navbar-nav li {
+            padding: 0px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            background: transparent
+        }
+        
+        /* Landing-page */
+        .landing-img {
+            background: url(../img/close-up-coffee-creative-905868.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            height: 900px;
+            background-position: bottom;
+            margin-top: -60px;
+            overflow: hidden;
+        }
+
+        .landing-text{
+        padding-top:300px;  
+            text-align: center;
+        }
+
+        /* Introducing */
+        .intro {
+            background: url(../img/creative_bg.jpg);
+            height: 600px;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position:  top;
+            margin-top:     
+        }
+
+        .i-head {
+            margin-top: 15%;
+        }
+
+        .brd-1 {
+            border-bottom: 3px solid #222222;
+            width: 100px;
+            padding: 5px 0px;
+        }
+
+        .i-head p {
+        }
+
+        /* Work */ 
+
+        .w-text {
+            border-left: 1px solid #222;
+            padding: 30px;
+            text-align: center
+        }
+
+        .w-text h2{
+            font-size: 50px;
+        }
+
+        .brd-2 {
+            
+            border-bottom: 3px solid #222222;
+            width:100px;
+            margin-left: 160px;
+            padding: 5px 0;
+        }
+
+        .w-text p {
+            padding-top: 20px;
+        }
+
+        /* Our specialities */
+        .specialities {
+            background: url(../img/creative_bg2.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            height: 700px;
+        }
+
+        .s-cs {
+            padding-top: 80px;
+            color: white;
+        }
+
+
+        .brd-3 {
+            border-bottom: 3px solid white;
+            width: 100px;
+            padding: 5px 0px;
+        }
+
+        .box-1 .fas {
+            border: 1px solid white;
+            border-radius: 50px;
+            padding: 10px
+            
+        }
+    .box {
+        margin-top: 80px;
+        position: relative;
+        max-width: 250px;
+        height: 250px;
+        background: rgba(255, 255, 255, .2);
+        padding: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .box:hover .fas {
+        background: #222222;
+        transition: 0.5s;
+    }
+
+    .box-1 {
+        
+    }
+        /* About us */
+        .about-img {
+            background: url(../img/creative_bg4.jpg);
+            height: 700px;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            padding-top: 100px;
+        }
+
+        /* Our story */
+        .story {
+        
+        }
+        
+        .story-cs {
+            padding: 15px 80px
+        }
+
+        /* our skills 
+        .skills {
+            padding-top: 80px;
+        }
+
+        .progress {
+            margin-top: 20px;
+            height: 20px;
+        } */
+        /* Our team */
+        .team h1 {
+            padding-left: -10px
+        }
+        .team {
+            padding-top: 80px
+        }
+        .team-img {
+            overflow: hidden;
+            border-left   : 3px solid #222;
+            border-radius: 70px
+        }
+        .team-img img  {
+            height: 350px;
+            width: 250px;
+            transition: 0.5s;
+            filter: grayscale(100%)
+        }
+
+        .team-img img:hover {
+        transform: scale(1.1);  
+        cursor: pointer;
+        filter: none;
+        }
+
+        .team-img h4 {
+            margin-top: 25px;
+        }
+
+        /* Work */
+        .work {
+            padding-top: 80px;
+        }
+
+        .w-cs {
+            margin-left: -18px
+        }
+
+        .w-hover {
+            position: absolute;
+            background: rgba(255, 255, 255, .3);
+            bottom: 40px;
+            color: black;
+            font-weight: bolder;
+            padding: 20px;
+            display: none;   
+        }
+    
+        .w-img:hover .w-hover {
+            display: block; 
+            transition: 0.5s        
+        }
+
+        /* Write */
+
+        .write {
+            padding-top: 80px;
+        }
+
+        .wr-cs {
+            margin-left: -18px;
+        }
+
+        .card {
+            height: 450px;
+            margin-bottom:80px
+        }
+        .card:hover {
+            box-shadow: 7px 7px 10px;
+            transition: 0.3s
+        }
+        
+        /* Contact */
+        .contact {
+            background: url(../img/city-dark-dawn-248159.jpg);
+            height:700px;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: ; 
+            color: white;
+        }
+
+        .contact img {
+            filter:grayscale(50%)
+        }
+        .c-ws {
+        padding-top: 150px
+        }       
+
+        .icons{
+            padding-left: 50px;
+            
+        }
+
+        input[type="text"], input[type="email"], .input-group-text {
+            background: transparent;
+            border: none;
+            outline: none; 
+            border: 2px solid  white;
+        }
+
+        input[type="text"]:focus, input[type="email"]:focus, .input-group-text {
+            background: transparent;
+            border: none;
+            outline: none; 
+            border: 2px solid  white;
+        }
+
+        .input-group-text {
+            color: white
+        }
+        form {
+            margin-top: 20px
+        }
+        textarea {
+            background: none;
+            border: none;
+            outline: none;
+            border: 5px solid  white;
+            padding-left: 50px;
+            margin-left: 150px;
+            margin-bottom: 100px;
+            color: white;
+        }
+        /* Footer */
+        footer {
+            background: #474747;
+            height: 100px;
+            text-align: center;
+            padding: 20px 0
+        }
+
+        .f-text {
+            color: white;
+            font-style: italic; 
+            font-size: 15px;
+        }
+
+        .f-icon .fab, .f-icon .fas {
+            padding-left: 18px;
+            margin-bottom: 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        @media only screen and (max-width:1024px) {
+            .w-hover {
+                bottom: 15px;
+                font-size: 12px
+            }
+            
+        }
+
+        @media only screen and (max-width: 992px) {
+            .brd-2 {
+                display: none;
+            }
+
+            .s-cs h4{
+                font-size: 18px
+            }
+
+            .s-cs p {
+                font-size: 15px
+            }
+
+            .about-img {
+                height: 750px
+            }
+
+            .story-cs {
+                padding: 8px 80px
+            }
+        }
+
+        @media only screen and (max-width:768px) {
+            .w-hover {
+                bottom: 15px;
+                font-size: 12px
+            }
+
+            .team-img {
+                margin-top:25px;
+                text-align: center;
+                border: none;
+            }
+
+            .icons-1 {
+                text-align: ce
+            }
+
+            .icons{
+                padding-left: 10px;
+                
+            }
+          
+            .specialities {
+                height: 1600px
+            }
+        }
+        
+@media only screen and (max-width:415px) {
+    
+
+    .about-img {
+        height: 800px;
+    }
+}
+
+
+        
